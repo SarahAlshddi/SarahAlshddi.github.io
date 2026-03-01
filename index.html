@@ -3,27 +3,79 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>home page11</title>
+  <title>[Your Name] - Home</title>
+
+  <!-- Demo-only styling to make it look nicer -->
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+    header { margin-bottom: 24px; }
+    nav[role="navigation"] a { margin-right: 12px; text-decoration: none; font-weight: bold; }
+    nav[role="navigation"] a:hover { text-decoration: underline; }
+    main { max-width: 800px; }
+    section { margin: 18px 0; padding: 14px; border: 1px solid #ddd; border-radius: 10px; }
+    h1 { margin: 0 0 8px; }
+    footer { margin-top: 32px; font-size: 14px; color: #444; }
+    code { background: #f5f5f5; padding: 2px 6px; border-radius: 6px; }
+  </style>
 </head>
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-}
 
-nav a {
-  margin-right: 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
+<body>
+  <header id="top">
+    <h1>[Your Name]</h1>
 
-nav a:hover {
-  color: purple;
-}
+    <nav role="navigation" aria-label="Primary navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-footer {
-  margin-top: 50px;
-  font-size: 14px;
-}
-</style>
+  <main role="main">
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        [Write 2–3 lines about yourself in your own words. Keep it simple and natural.]
+      </p>
+    </section>
+
+    <section>
+      <h2>Hobbies (ul)</h2>
+      <ul>
+        <li>[Hobby 1]</li>
+        <li>[Hobby 2]</li>
+        <li>[Hobby 3]</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Goals this semester (ol)</h2>
+      <ol>
+        <li>[Goal 1]</li>
+        <li>[Goal 2]</li>
+        <li>[Goal 3]</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Quick definitions (dl)</h2>
+      <dl>
+        <dt><strong>[Term 1]</strong></dt>
+        <dd>[Definition in one short sentence.]</dd>
+
+        <dt><strong>[Term 2]</strong></dt>
+        <dd>[Definition in one short sentence.]</dd>
+
+        <dt><strong>[Term 3]</strong></dt>
+        <dd>[Definition in one short sentence.]</dd>
+      </dl>
+    </section>
+
+    <p><a href="#top">Back to Top</a></p>
+  </main>
+
+  <footer>
+    <p>© [Your Name] — CSC457 HW2</p>
+  </footer>
+</body>
 </html>
